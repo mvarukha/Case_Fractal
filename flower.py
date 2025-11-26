@@ -29,7 +29,6 @@ def draw_fractal_flower():
                 flower_rec(order - 1, size / FLOWER_SIZE_FACTOR)
 
     def setup_screen() -> None:
-        reset()
         speed(0)
         tracer(0, 0)
 
@@ -60,4 +59,5 @@ def draw_fractal_flower():
     exitonclick()
 
 if __name__ == '__main__':
+
     draw_fractal_flower()
